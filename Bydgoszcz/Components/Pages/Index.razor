@@ -1,0 +1,18 @@
+﻿@page "/"
+@inject NavigationManager _navigationManager
+
+<button @onclick="OnClick">Enter house</button>
+
+@if(button)
+{
+	_navigationManager.NavigateTo("/MainPage");
+}
+
+
+@code{
+	bool button = false;
+
+	public void OnClick(){
+		button = true;
+	}
+}
