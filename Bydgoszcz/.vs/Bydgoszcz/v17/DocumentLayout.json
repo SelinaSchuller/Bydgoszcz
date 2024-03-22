@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8A47072E-6057-4D74-8FB9-07F5ACCE2111}|Bydgoszcz.csproj|c:\\users\\selina schuller\\onedrive - curio\\documenten\\pra\\d\\bydgoszcz\\bydgoszcz\\components\\pages\\closet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A47072E-6057-4D74-8FB9-07F5ACCE2111}|Bydgoszcz.csproj|solutionrelative:components\\pages\\closet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A47072E-6057-4D74-8FB9-07F5ACCE2111}|Bydgoszcz.csproj|c:\\users\\selina schuller\\onedrive - curio\\documenten\\pra\\d\\bydgoszcz\\bydgoszcz\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A47072E-6057-4D74-8FB9-07F5ACCE2111}|Bydgoszcz.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A47072E-6057-4D74-8FB9-07F5ACCE2111}|Bydgoszcz.csproj|c:\\users\\selina schuller\\onedrive - curio\\documenten\\pra\\d\\bydgoszcz\\bydgoszcz\\components\\pages\\bedroom.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A47072E-6057-4D74-8FB9-07F5ACCE2111}|Bydgoszcz.csproj|solutionrelative:components\\pages\\bedroom.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A47072E-6057-4D74-8FB9-07F5ACCE2111}|Bydgoszcz.csproj|c:\\users\\selina schuller\\onedrive - curio\\documenten\\pra\\d\\bydgoszcz\\bydgoszcz\\components\\pages\\hal1.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A47072E-6057-4D74-8FB9-07F5ACCE2111}|Bydgoszcz.csproj|solutionrelative:components\\pages\\hal1.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8A47072E-6057-4D74-8FB9-07F5ACCE2111}|Bydgoszcz.csproj|c:\\users\\selina schuller\\onedrive - curio\\documenten\\pra\\d\\bydgoszcz\\bydgoszcz\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8A47072E-6057-4D74-8FB9-07F5ACCE2111}|Bydgoszcz.csproj|solutionrelative:components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,8 +27,8 @@
       "RelativeMoniker": "D:0:0:{8A47072E-6057-4D74-8FB9-07F5ACCE2111}|Bydgoszcz.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A47072E-6057-4D74-8FB9-07F5ACCE2111}|Bydgoszcz.csproj|c:\\users\\selina schuller\\onedrive - curio\\documenten\\pra\\d\\bydgoszcz\\bydgoszcz\\components\\pages\\mainpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8A47072E-6057-4D74-8FB9-07F5ACCE2111}|Bydgoszcz.csproj|solutionrelative:components\\pages\\mainpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8A47072E-6057-4D74-8FB9-07F5ACCE2111}|Bydgoszcz.csproj|c:\\users\\selina schuller\\onedrive - curio\\documenten\\pra\\d\\bydgoszcz\\bydgoszcz\\components\\pages\\index.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8A47072E-6057-4D74-8FB9-07F5ACCE2111}|Bydgoszcz.csproj|solutionrelative:components\\pages\\index.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A47072E-6057-4D74-8FB9-07F5ACCE2111}|Bydgoszcz.csproj|c:\\users\\selina schuller\\onedrive - curio\\documenten\\pra\\d\\bydgoszcz\\bydgoszcz\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -26,11 +42,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T13:11:02.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Hal1.razor",
+              "DocumentMoniker": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\Components\\Pages\\Hal1.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Hal1.razor",
+              "ToolTip": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\Components\\Pages\\Hal1.razor",
+              "RelativeToolTip": "Components\\Pages\\Hal1.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T12:53:03.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Closet.razor",
+              "DocumentMoniker": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\Components\\Pages\\Closet.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Closet.razor",
+              "ToolTip": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\Components\\Pages\\Closet.razor",
+              "RelativeToolTip": "Components\\Pages\\Closet.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAewA4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T12:51:02.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.razor.css",
+              "DocumentMoniker": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\Components\\Pages\\Index.razor.css",
+              "RelativeDocumentMoniker": "Components\\Pages\\Index.razor.css",
+              "ToolTip": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\Components\\Pages\\Index.razor.css",
+              "RelativeToolTip": "Components\\Pages\\Index.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-22T12:45:54.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",
@@ -43,20 +111,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\Components\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Index.razor",
               "ToolTip": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\Components\\Pages\\Index.razor",
               "RelativeToolTip": "Components\\Pages\\Index.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-15T14:00:37.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\Components\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Counter.razor",
@@ -70,12 +138,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Mainpage.razor",
-              "DocumentMoniker": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\Components\\Pages\\Mainpage.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Mainpage.razor",
-              "ToolTip": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\Components\\Pages\\Mainpage.razor",
-              "RelativeToolTip": "Components\\Pages\\Mainpage.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
+              "Title": "Bedroom.razor",
+              "DocumentMoniker": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\Components\\Pages\\Bedroom.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Bedroom.razor",
+              "ToolTip": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\Components\\Pages\\Bedroom.razor",
+              "RelativeToolTip": "Components\\Pages\\Bedroom.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-15T13:50:36.254Z",
               "EditorCaption": ""

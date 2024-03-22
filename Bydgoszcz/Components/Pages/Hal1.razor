@@ -1,0 +1,20 @@
+﻿@page "/Hal1"
+@inject NavigationManager _navigationManager
+
+<div class="background">
+	<h1>First Hal</h1>
+	<div class="buttons">
+		<button @onclick="OnClick" value="Hal2">Second Hal</button>
+		<button @onclick="OnClick" value"Stairs">Stairs</button>
+	</div>
+</div>
+
+
+@code {
+	bool button = false;
+
+	public void OnClick()
+	{
+		button = true;
+	}
+}

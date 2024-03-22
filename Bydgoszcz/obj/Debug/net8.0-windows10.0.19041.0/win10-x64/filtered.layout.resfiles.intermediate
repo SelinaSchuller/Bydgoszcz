@@ -185,7 +185,6 @@ wwwroot\_content\Radzen.Blazor\fonts\SourceSansPro-Semibold.woff
 wwwroot\_content\Radzen.Blazor\fonts\SourceSansPro-SemiboldIt.woff
 wwwroot\_content\Radzen.Blazor\Radzen.Blazor.js
 Components\Layout\MainLayout.razor.css
-Components\Layout\NavMenu.razor.css
 Components\Pages\Index.razor.css
 OpenSans-Regular.ttf
 appicon.ico

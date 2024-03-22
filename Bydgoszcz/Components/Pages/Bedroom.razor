@@ -1,0 +1,17 @@
+﻿@page "/Bedroom"
+@inject NavigationManager _navigationManager
+
+<div class="background">
+	<h1>Bedroom</h1>
+	<div class="buttons">
+		<button @onclick='() => OnClick("Hal1")'>Leave room</button>
+		<button @onclick='() => OnClick("Closet")'>Enter closet</button>
+	</div>
+</div>
+
+@code {
+	void OnClick(string destination)
+	{
+		_navigationManager.NavigateTo($"/{destination}");
+	}
+}

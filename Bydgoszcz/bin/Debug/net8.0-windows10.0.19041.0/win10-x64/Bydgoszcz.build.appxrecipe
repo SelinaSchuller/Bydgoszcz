@@ -1177,9 +1177,6 @@
     <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\Components\Layout\NavMenu.razor.css">
-      <PackagePath>Components\Layout\NavMenu.razor.css</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\Components\Pages\Index.razor.css">
       <PackagePath>Components\Pages\Index.razor.css</PackagePath>
     </AppxPackagedFile>

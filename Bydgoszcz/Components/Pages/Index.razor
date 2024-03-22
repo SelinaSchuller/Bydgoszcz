@@ -1,11 +1,15 @@
 ﻿@page "/"
 @inject NavigationManager _navigationManager
 
-<button @onclick="OnClick">Enter house</button>
+<div class="background">
+	<h1>BYDGOSZCZ</h1>
+	<button @onclick="OnClick">Play</button>
+</div>
+
 
 @if(button)
 {
-	_navigationManager.NavigateTo("/MainPage");
+	_navigationManager.NavigateTo("/Bedroom");
 }
 
 
