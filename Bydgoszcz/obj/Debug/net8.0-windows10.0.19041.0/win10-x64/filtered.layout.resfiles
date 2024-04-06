@@ -185,6 +185,8 @@ wwwroot\_content\Radzen.Blazor\fonts\SourceSansPro-Semibold.woff
 wwwroot\_content\Radzen.Blazor\fonts\SourceSansPro-SemiboldIt.woff
 wwwroot\_content\Radzen.Blazor\Radzen.Blazor.js
 Components\Layout\MainLayout.razor.css
+Components\Layout\NavMenu.razor.css
+Components\Pages\Bedroom.razor.css
 Components\Pages\Index.razor.css
 OpenSans-Regular.ttf
 appicon.ico
@@ -233,6 +235,7 @@ appiconWideTile.scale-125.png
 appiconWideTile.scale-150.png
 appiconWideTile.scale-200.png
 appiconWideTile.scale-400.png
+bedroom.scale-100.png
 dotnet_bot.scale-100.png
 dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png

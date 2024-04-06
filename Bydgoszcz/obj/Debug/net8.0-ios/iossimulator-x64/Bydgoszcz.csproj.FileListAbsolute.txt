@@ -382,3 +382,5 @@ C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\o
 C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\obj\Debug\net8.0-ios\iossimulator-x64\Bydgoszcz.pdb
 C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\obj\Debug\net8.0-ios\iossimulator-x64\Bydgoszcz.genruntimeconfig.cache
 C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\obj\Debug\net8.0-ios\iossimulator-x64\ref\Bydgoszcz.dll
+C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\obj\Debug\net8.0-ios\iossimulator-x64\scopedcss\Components\Pages\Bedroom.razor.rz.scp.css
+C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\bedroom.jpg

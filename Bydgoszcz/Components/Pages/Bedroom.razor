@@ -1,17 +1,35 @@
 ﻿@page "/Bedroom"
 @inject NavigationManager _navigationManager
+@inject Microsoft.AspNetCore.Components.NavigationManager UriHelper
 
 <div class="background">
-	<h1>Bedroom</h1>
-	<div class="buttons">
-		<button @onclick='() => OnClick("Hal1")'>Leave room</button>
-		<button @onclick='() => OnClick("Closet")'>Enter closet</button>
-	</div>
+    <h1>Bedroom</h1>
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <img type="ïmage/png" scr="../../wwwroot/Images/bedroom.png" alt="Image" />
+    <p>URL: @GetBaseUrl()</p>
+    <div class="buttons">
+        <button @onclick='() => OnClick("Hal1")'>Leave room</button>
+        <button @onclick='() => OnClick("Closet")'>Enter closet</button>
+    </div>
 </div>
 
 @code {
-	void OnClick(string destination)
-	{
-		_navigationManager.NavigateTo($"/{destination}");
-	}
+    void OnClick(string destination)
+    {
+        _navigationManager.NavigateTo($"/{destination}");
+    }
+
+    // private string GetImageUrl(string imageName)
+    // {
+    //     string url = GetBaseUrl();
+    //     // Combine with the relative path to the image
+    //     return $"{url}images/{imageName}";
+    // }
+
+    private string GetBaseUrl()
+    {
+        // Get the base URL of the application
+        return UriHelper.BaseUri;
+    }
 }
