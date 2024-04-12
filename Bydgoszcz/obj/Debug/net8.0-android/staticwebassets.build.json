@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/HCdAiW/TjYdzUPSw1TDNE6Rzq0aTLY02D0PQzVSPvw=",
+  "Hash": "ghMcUzZmbyB7rQFhp/B2neq8EeFV+jU6Nd70qxpLTnM=",
   "Source": "Bydgoszcz",
   "BasePath": "/",
   "Mode": "Root",
@@ -3587,6 +3587,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Bydgoszcz.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\wwwroot\\Content\\bedroom.png",
+      "SourceId": "Bydgoszcz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Content/bedroom.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Content\\bedroom.png"
     },
     {
       "Identity": "C:\\Users\\Selina Schuller\\OneDrive - Curio\\Documenten\\Pra\\D\\Bydgoszcz\\Bydgoszcz\\wwwroot\\css\\app.css",

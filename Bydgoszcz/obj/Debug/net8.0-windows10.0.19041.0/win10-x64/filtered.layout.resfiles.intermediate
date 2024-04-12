@@ -236,6 +236,7 @@ appiconWideTile.scale-150.png
 appiconWideTile.scale-200.png
 appiconWideTile.scale-400.png
 bedroom.scale-100.png
+bedroomm.scale-100.png
 dotnet_bot.scale-100.png
 dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
@@ -249,6 +250,7 @@ splashSplashScreen.scale-400.png
 wwwroot\Bydgoszcz.styles.css
 wwwroot\Bydgoszcz.bundle.scp.css
 AboutAssets.txt
+wwwroot\Content\bedroom.png
 wwwroot\css\app.css
 wwwroot\css\bootstrap\bootstrap.min.css
 wwwroot\css\bootstrap\bootstrap.min.css.map

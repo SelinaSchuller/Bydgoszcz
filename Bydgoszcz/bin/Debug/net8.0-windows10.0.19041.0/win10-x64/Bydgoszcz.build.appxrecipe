@@ -40,6 +40,9 @@
     <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\wwwroot\Content\bedroom.png">
+      <PackagePath>wwwroot\Content\bedroom.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
     </AppxPackagedFile>
@@ -213,6 +216,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bedroom.scale-100.png">
       <PackagePath>bedroom.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bedroomm.scale-100.png">
+      <PackagePath>bedroomm.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
