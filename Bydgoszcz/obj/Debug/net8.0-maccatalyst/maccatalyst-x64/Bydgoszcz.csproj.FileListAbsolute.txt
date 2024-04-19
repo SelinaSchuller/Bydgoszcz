@@ -1,2 +1,0 @@
-C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Net.WebClient.dll
-C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Private.CoreLib.dll
