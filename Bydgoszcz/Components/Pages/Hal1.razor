@@ -1,11 +1,15 @@
 ﻿@page "/Hal1"
+@using Bydgoszcz.Services
+
 @inject NavigationManager _navigationManager
+@inject INavigateToPage _navigateToPage
+
 
 <div class="background">
 	<h1>First Hal</h1>
 	<div class="buttons">
-		<button @onclick="OnClick" value="Hal2">Second Hal</button>
-		<button @onclick="OnClick" value"Stairs">Stairs</button>
+		<button @onclick='() => _navigateToPage.OnNavigatedTo("Hal2")'>Second Hal</button>
+		<button @onclick='() => _navigateToPage.OnNavigatedTo("DownStairs")'>Stairs</button>
 	</div>
 </div>
 
@@ -13,8 +17,8 @@
 @code {
 	bool button = false;
 
-	public void OnClick()
+	void OnClick(string destination)
 	{
-		button = true;
+		_navigationManager.NavigateTo($"/{destination}");
 	}
 }

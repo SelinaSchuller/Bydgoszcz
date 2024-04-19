@@ -4,22 +4,25 @@
     flex-direction: column;
 }
 
+
+
+.pink-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: deeppink;
+    opacity: 0.5;
+    z-index: 9999;
+    pointer-events: none;
+}
+
 main {
     flex: 1;
 }
 
-/*.sidebar {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
-}
 
-.top-row {
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #d6d5d5;
-    justify-content: flex-end;
-    height: 3.5rem;
-    display: flex;
-    align-items: center;
-}*/
 
     .top-row ::deep a, .top-row ::deep .btn-link {
         white-space: nowrap;

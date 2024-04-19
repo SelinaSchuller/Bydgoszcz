@@ -1,4 +1,7 @@
-﻿using CommunityToolkit.Maui;
+﻿using Bydgoszcz.Services;
+using CommunityToolkit.Maui;
+using Microsoft.AspNetCore.Components;
+
 
 //using Bydgoszcz.Interfaces;
 //using Bydgoszcz.Services;
@@ -29,7 +32,8 @@ namespace Bydgoszcz
 			builder.Services.AddBlazorWebViewDeveloperTools();
 			//builder.Logging.AddDebug();
 #endif
-
+			builder.Services.AddSingleton<IPinkService, PinkService>();
+			builder.Services.AddScoped<INavigateToPage, NavigateToPage>();
 			return builder.Build();
 		}
 	}
