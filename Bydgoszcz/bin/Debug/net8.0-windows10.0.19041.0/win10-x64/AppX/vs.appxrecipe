@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-12T11:15:33.085</Modified>
+      <Modified>2024-04-19T09:46:34.670</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -39,15 +39,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Bydgoszcz.runtimeconfig.json">
       <PackagePath>Bydgoszcz.runtimeconfig.json</PackagePath>
-      <Modified>2024-04-12T10:02:24.216</Modified>
+      <Modified>2024-04-19T09:46:34.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Bydgoszcz.dll">
       <PackagePath>Bydgoszcz.dll</PackagePath>
-      <Modified>2024-04-12T10:18:49.268</Modified>
+      <Modified>2024-04-19T09:46:34.014</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Bydgoszcz.exe</PackagePath>
-      <Modified>2024-04-12T10:18:49.375</Modified>
+      <Modified>2024-04-19T09:46:34.033</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -315,7 +315,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Bydgoszcz.deps.json">
       <PackagePath>Bydgoszcz.deps.json</PackagePath>
-      <Modified>2024-04-12T10:02:24.186</Modified>
+      <Modified>2024-04-19T09:46:34.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Selina Schuller\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -1571,11 +1571,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\Bydgoszcz.styles.css">
       <PackagePath>wwwroot\Bydgoszcz.styles.css</PackagePath>
-      <Modified>2024-04-12T10:17:20.645</Modified>
+      <Modified>2024-04-19T09:46:22.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\Bydgoszcz.bundle.scp.css">
       <PackagePath>wwwroot\Bydgoszcz.bundle.scp.css</PackagePath>
-      <Modified>2024-04-12T10:17:20.648</Modified>
+      <Modified>2024-04-19T09:46:22.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
@@ -1587,7 +1587,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\Components\Pages\Bedroom.razor.css">
       <PackagePath>Components\Pages\Bedroom.razor.css</PackagePath>
-      <Modified>2024-04-12T10:17:18.018</Modified>
+      <Modified>2024-04-19T09:46:21.022</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Selina Schuller\OneDrive - Curio\Documenten\Pra\D\Bydgoszcz\Bydgoszcz\Components\Pages\Index.razor.css">
       <PackagePath>Components\Pages\Index.razor.css</PackagePath>

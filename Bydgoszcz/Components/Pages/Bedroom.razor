@@ -3,33 +3,34 @@
 @inject Microsoft.AspNetCore.Components.NavigationManager UriHelper
 
 <div class="background">
-    <h1>Bedroom</h1>
-@*     <link rel="icon" type="image/png" href="favicon.png" />
+	<div class="main">
+		<h1>Bedroom</h1>
+		@*     <link rel="icon" type="image/png" href="favicon.png" />
 
-    <img scr="../Resources/Images/bedroomm.png" alt="Image" />
-    <p>URL: @GetBaseUrl()</p> *@
-    <div class="buttons">
-        <button @onclick='() => OnClick("Hal1")'>Leave room</button>
-        <button @onclick='() => OnClick("Closet")'>Enter closet</button>
-    </div>
+		<img scr="../Resources/Images/bedroomm.png" alt="Image" />
+		<p>URL: @GetBaseUrl()</p> *@
+		<button class="closet" @onclick='() => OnClick("Closet")'>Enter closet</button>
+		<button class="hall" @onclick='() => OnClick("Hal1")'>Leave room</button>
+		<p>bhjgffkj</p>
+	</div>
 </div>
 
 @code {
-    void OnClick(string destination)
-    {
-        _navigationManager.NavigateTo($"/{destination}");
-    }
+	void OnClick(string destination)
+	{
+		_navigationManager.NavigateTo($"/{destination}");
+	}
 
-    // private string GetImageUrl(string imageName)
-    // {
-    //     string url = GetBaseUrl();
-    //     // Combine with the relative path to the image
-    //     return $"{url}images/{imageName}";
-    // }
+	// private string GetImageUrl(string imageName)
+	// {
+	//     string url = GetBaseUrl();
+	//     // Combine with the relative path to the image
+	//     return $"{url}images/{imageName}";
+	// }
 
-    private string GetBaseUrl()
-    {
-        // Get the base URL of the application
-        return UriHelper.BaseUri;
-    }
+	private string GetBaseUrl()
+	{
+		// Get the base URL of the application
+		return UriHelper.BaseUri;
+	}
 }
