@@ -1,0 +1,26 @@
+﻿@page "/bathroom"
+@using Bydgoszcz.Services
+
+@inject NavigationManager _navigationManager
+@inject INavigateToPage _navigateToPage
+
+<div class="background">
+	<div class="main">
+		<h1>Bathroom</h1>
+		<button class="shower" onclick='OpenShower()'>Enter shower</button>
+		<video class="w-100" style="max-width:800px;" controls>
+			<source src="url(/Content/Vids/bathroom.png)" type="video/mp4" />
+			Your browser does not support the video tag.
+		</video>
+	</div>
+</div>
+
+
+@code {
+
+	private void OpenShower()
+	{
+
+	}
+
+}

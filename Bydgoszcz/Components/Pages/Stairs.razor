@@ -1,0 +1,19 @@
+﻿@page "/stairs"
+@using Bydgoszcz.Services
+
+@inject NavigationManager _navigationManager
+@inject INavigateToPage _navigateToPage
+
+
+<div class="background">
+	<div class="main">
+		<h1>Stairs</h1>
+		<button class="bathroom" @onclick='() => _navigateToPage.OnNavigatedTo("bathroom")'>Go downstairs</button>
+		<button class="stairs" @onclick='() => _navigateToPage.OnNavigatedTo("hal1")'>Go back</button>
+	</div>
+</div>
+
+
+@code {
+
+}

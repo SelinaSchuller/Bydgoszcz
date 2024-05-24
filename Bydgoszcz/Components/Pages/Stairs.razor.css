@@ -1,0 +1,78 @@
+﻿.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/Content/Pages/stairs.png) no-repeat center center;
+    background-size: cover;
+}
+
+    /* Add a pseudo-element for the dark overlay */
+    .background::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+        /* Make sure the overlay is behind any other content */
+    }
+
+h1 {
+    color: lightgray;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(30, 1fr); /* Changed grid-auto-columns to grid-template-columns */
+    grid-template-rows: repeat(10, 1fr); /* Changed grid-auto-rows to grid-template-rows */
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+button {
+    font-size: 15px;
+    opacity: 25%;
+    background-color: darkgrey; /* Greenish color */
+    border: 2px solid black; /* Greenish color */
+    font-weight: bold;
+    color: black; /* Black text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    /*margin: 10px;*/ /* Add some margin between buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    width: 120px;
+    height: 70px;
+
+}
+
+button:hover {
+    opacity: 75%;
+    background-color: grey; /* Darker greenish color on hover */
+    color: #fff; /* White text color on hover */
+}
+.stairs {
+    grid-row: 4;
+    grid-column: 13;
+    width: 100px;
+    font-size: 13px;
+}
+
+.bedroom {
+    grid-row: 5;
+    grid-column: 9;
+}
+
+.bathroom {
+    grid-row: 2;
+    grid-column: 14;
+}

@@ -58,7 +58,12 @@
     </ItemGroup>-->
 
     <ItemGroup>
+      <None Remove="Components\Pages\InsideBedroom\Closet.razor.css" />
       <None Remove="Resources\Images\bedroomm.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="Components\Pages\InsideBedroom\Closet.razor.css" />
     </ItemGroup>
 
     <ItemGroup>

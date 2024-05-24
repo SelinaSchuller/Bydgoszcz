@@ -3,32 +3,32 @@
 @inject IPinkService _pinkService
 
 <div class="@($"{(pink ? "page pink" : "page")}")">
-    <p>Pink is @pink</p>
-    <main>
-        <article class="content px-4">
-            <!-- Pink overlay -->
-            @if(pink)
-            {
-                <div class="pink-overlay"></div>
-            }
-            <!-- Apply the pink filter here -->
-            @Body
-        </article>
-    </main>
+	@*     <p>Pink is @pink</p>*@
+	<main>
+		<article class="content px-4">
+			<!-- Pink overlay -->
+			@if(pink)
+			{
+				<div class="pink-overlay"></div>
+			}
+			<!-- Apply the pink filter here -->
+			@Body
+		</article>
+	</main>
 </div>
 
 @code {
-    bool pink { get; set; }
+	bool pink { get; set; }
 
-    protected override void OnInitialized()
-    {
-        pink = _pinkService.IsPink;
-        _pinkService.PinkChanged += HandlePinkChanged;
-    }
+	protected override void OnInitialized()
+	{
+		pink = _pinkService.IsPink;
+		_pinkService.PinkChanged += HandlePinkChanged;
+	}
 
-    private void HandlePinkChanged(object sender, EventArgs e)
-    {
-        pink = _pinkService.IsPink;
-        StateHasChanged(); // Notify Blazor that the state has changed
-    }
+	private void HandlePinkChanged(object sender, EventArgs e)
+	{
+		pink = _pinkService.IsPink;
+		StateHasChanged(); // Notify Blazor that the state has changed
+	}
 }

@@ -1,0 +1,25 @@
+﻿@page "/startpage"
+@using Bydgoszcz.Services
+@inject NavigationManager _navigationManager
+@inject INavigateToPage _navigateToPage
+
+<div class="background">
+	<div class="main">
+		<h1>Bydgoszcz</h1>
+		<button class="closet" @onclick='() => _navigateToPage.OnNavigatedTo("insideBedroom/main")'>Play</button>
+	</div>
+	
+</div>
+
+
+
+
+@code{
+
+	protected override void OnInitialized()
+	{
+		
+
+		base.OnInitializedAsync();
+	}
+}

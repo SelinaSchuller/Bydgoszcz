@@ -1,0 +1,29 @@
+﻿@page "/loading"
+@using Bydgoszcz.Services
+@inject IJSRuntime JS
+@inject INavigateToPage _navigateToPage
+
+
+<body class="background">
+	<div class="main">
+		<div id="loading-text">Loading</div>
+	</div>
+</body>
+@code {
+	protected override async Task OnAfterRenderAsync(bool firstRender)
+	{
+		if(firstRender)
+		{
+			await JS.InvokeVoidAsync("startLoadingAnimation");
+		}
+	}
+
+	protected override void OnInitialized()
+	{
+		_navigateToPage.OnNavigatedTo("insideBedroom/main");
+		_navigateToPage.OnNavigatedTo("insideBedroom/closet");
+		_navigateToPage.OnNavigatedTo("startpage");
+
+		base.OnInitializedAsync();
+	}
+}

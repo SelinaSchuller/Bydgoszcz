@@ -1,4 +1,4 @@
-﻿@page "/Hal1"
+﻿@page "/hal1"
 @using Bydgoszcz.Services
 
 @inject NavigationManager _navigationManager
@@ -6,19 +6,15 @@
 
 
 <div class="background">
-	<h1>First Hal</h1>
-	<div class="buttons">
-		<button @onclick='() => _navigateToPage.OnNavigatedTo("Hal2")'>Second Hal</button>
-		<button @onclick='() => _navigateToPage.OnNavigatedTo("DownStairs")'>Stairs</button>
+	<div class="main">
+		<h1>First Hall</h1>
+		<button class="bathroom" @onclick='() => _navigateToPage.OnNavigatedTo("bathroom")'>Enter bathroom</button>
+		<button class="stairs" @onclick='() => _navigateToPage.OnNavigatedTo("stairs")'>Go downstairs</button>
+		<button class="bedroom" @onclick='() => _navigateToPage.OnNavigatedTo("insideBedroom/main")'>Go to bedroom</button>
 	</div>
 </div>
 
 
 @code {
-	bool button = false;
 
-	void OnClick(string destination)
-	{
-		_navigationManager.NavigateTo($"/{destination}");
-	}
 }

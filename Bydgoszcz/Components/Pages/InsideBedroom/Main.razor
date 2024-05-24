@@ -1,0 +1,22 @@
+﻿@page "/insideBedroom/main"
+@using Bydgoszcz.Services
+
+@inject NavigationManager _navigationManager
+@inject INavigateToPage _navigateToPage
+
+<body class="background">
+
+@* 	<div class="background">
+ *@		<div class="main">
+			<h1>Bedroom</h1>
+			<button class="closet" @onclick='() => _navigateToPage.OnNavigatedTo("insideBedroom/closet")'>Enter closet</button>
+			<button class="hall" @onclick='() => _navigateToPage.OnNavigatedTo("hal1")'>Leave room</button>
+		</div>
+@* 	</div>
+ *@</body>
+
+@code {
+
+
+
+}
