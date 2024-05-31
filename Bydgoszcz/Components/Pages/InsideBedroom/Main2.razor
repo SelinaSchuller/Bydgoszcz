@@ -1,4 +1,4 @@
-﻿@page "/insideBedroom/main"
+﻿@page "/insideBedroom/main2"
 @using Bydgoszcz.Services
 
 @inject NavigationManager _navigationManager
@@ -11,13 +11,11 @@
 			<h1>Bedroom</h1>
 			<button class="closet" @onclick='() => _navigateToPage.OnNavigatedTo("insideBedroom/closet")'>Enter closet</button>
 			<button class="hall" @onclick='() => _navigateToPage.OnNavigatedTo("hall1")'>Leave room</button>
-			<button class="turn" @onclick='() => _navigateToPage.OnNavigatedTo("insideBedroom/bedroomBackside")'>Turn around</button>
 		</div>
 @* 	</div>
  *@</body>
 
 @code {
-
-
+	
 
 }

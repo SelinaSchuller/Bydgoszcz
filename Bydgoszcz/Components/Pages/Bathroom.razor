@@ -4,23 +4,29 @@
 @inject NavigationManager _navigationManager
 @inject INavigateToPage _navigateToPage
 
+
 <div class="background">
-	<div class="main">
-		<h1>Bathroom</h1>
-		<button class="shower" onclick='OpenShower()'>Enter shower</button>
-		<video class="w-100" style="max-width:800px;" controls>
-			<source src="url(/Content/Vids/bathroom.png)" type="video/mp4" />
-			Your browser does not support the video tag.
-		</video>
-	</div>
+    <div class="main">
+        <h1>Bathroom</h1>
+        @if(showEnemy)
+        {
+            <p class="CommentBlock">An enemy has come out of the drain!</p>
+            <img class="enemy show" src="/Content/Images/enemy_1.png" alt="Enemy PNG" />
+        }
+        else
+        {
+            <button class="shower" @onclick="OpenShower">Enter shower</button>
+            <button class="hall" @onclick='() => _navigateToPage.OnNavigatedTo("hall1")'>Leave bathroom</button>
+
+        }
+    </div>
 </div>
 
-
 @code {
+    private bool showEnemy { get; set; } = false;
 
-	private void OpenShower()
-	{
-
-	}
-
+    private void OpenShower()
+    {
+        showEnemy = true;
+    }
 }

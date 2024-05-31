@@ -1,13 +1,27 @@
 ﻿.background {
-    /*background-image: url(../../Resources/Images/bedroom.png);*/
-    /*    background: src(../../Resources/Images/bedroom.png);*/
-    /*background-image: url(../../Resources/Images/bedroom.png);*/
-
-
     background: url(/Content/Pages/bathroom.png) no-repeat center center;
     background-size: cover;
-    /*background-repeat: no-repeat;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
+
+.background-gif {
+    background: url(/Content/Vids/enemy_1_bathroom.gif) no-repeat center center;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.background-png{
+    background: url(/Content/Images/enemy_1_bathroom.png) no-repeat center center;
+    background-size: cover;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,16 +31,16 @@
 
 .main {
     display: grid;
-    grid-template-columns: repeat(10, 1fr); /* Changed grid-auto-columns to grid-template-columns */
-    grid-template-rows: repeat(5, 1fr); /* Changed grid-auto-rows to grid-template-rows */
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     width: 100%;
     height: 100%;
     margin: 10px;
     position: fixed;
     top: 0;
     left: 0;
+    position: relative; /* Ensure the container has relative positioning */
 }
-
 
 h1 {
     color: white;
@@ -34,41 +48,71 @@ h1 {
     grid-column: 1;
 }
 
-/*.buttons {
-    border: solid 3px green;
-    display: grid;
-    grid-auto-columns: 1fr, 1fr, 1fr, 1fr, 1fr;
-}*/
-
 button {
     font-size: 15px;
     opacity: 50%;
-    background-color: grey; /* Greenish color */
-    border: 2px solid white; /* Greenish color */
-    color: #000; /* Black text color */
+    background-color: grey;
+    border: 2px solid white;
+    color: #000;
     padding: 10px 20px;
     border-radius: 5px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
-    /*margin: 10px;*/ /* Add some margin between buttons */
-    cursor: pointer; /* Change cursor to pointer on hover */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
     width: 120px;
     height: 70px;
 }
 
     button:hover {
         opacity: 75%;
-        background-color: grey; /* Darker greenish color on hover */
-        color: #fff; /* White text color on hover */
+        background-color: grey;
+        color: #fff;
     }
 
-.closet {
+.shower {
     grid-row: 3;
-    grid-column: 2;
-    /*    margin-left: 80px;
-*/
+    grid-column: 5;
 }
 
 .hall {
     grid-row: 2;
-    grid-column: 5;
+    grid-column: 2;
+}
+
+.CommentBlock {
+    grid-row: 1;
+    grid-column: 1;
+    margin-top: 50px;
+    width: 170%;
+    padding: 5px;
+    font-family: 'HP Simplified Jpan';
+    font-size: 16px;
+    background-color: #333333f2;
+    border: solid 2px #4d4d4dd9;
+    color: #c6c6c6bf;
+    border-radius: 10px;
+    opacity: 1;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+}
+
+.enemy {
+    width: 21%;
+    position: absolute;
+    top: 45%; /* Adjust this value as needed */
+    left: 47%; /* Adjust this value to position it more to the right */
+    transform: translateX(-50%); /* Center the image horizontally */
+    opacity: 1;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+       opacity: 1; 
+    }
 }

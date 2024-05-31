@@ -1,0 +1,58 @@
+﻿@page "/insideBedroom/bedroomBackside"
+@using Bydgoszcz.Services
+@inject NavigationManager _navigationManager
+@inject INavigateToPage _navigateToPage
+@inject IJSRuntime JSRuntime
+
+<body class="background">
+    <div class="main">
+        <h1>Bedroom</h1>
+        <button class="turn" @onclick='() => _navigateToPage.OnNavigatedTo("/insideBedroom/main")'>Turn around</button>
+        <button class="openCase" @onclick='OpenCase'>Open case</button>
+    </div>
+    <video id="caseVideo" class="@videoClass" @ref="videoElement" @onplaying="OnVideoPlaying" @onended="OnVideoEnded">
+        <source src="Content/Vids/gunFromCase.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+
+<script>
+    window.playVideo = function (videoElement) {
+        if (videoElement) {
+            videoElement.play();
+            videoElement.addEventListener('ended', function () {
+                DotNet.invokeMethodAsync('Bydgoszcz', 'VideoEnded');
+            });
+        }
+    };
+</script>
+
+
+@code {
+    private ElementReference videoElement;
+    private string videoClass = "video-hidden";
+
+    private async Task OpenCase()
+    {
+        videoClass = "video-fullscreen";
+        await JSRuntime.InvokeVoidAsync("playVideo", videoElement);
+    }
+
+    private void OnVideoPlaying()
+    {
+        videoClass = "video-fullscreen";
+    }
+
+    private void OnVideoEnded()
+    {
+        videoClass = "video-hidden";
+    }
+
+    [JSInvokable]
+    public async Task VideoEnded()
+    {
+        // Video has ended, navigate back to the page
+        _navigateToPage.OnNavigatedTo("/insideBedroom/main");
+    }
+}

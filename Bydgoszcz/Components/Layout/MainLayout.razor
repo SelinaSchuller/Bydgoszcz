@@ -1,34 +1,56 @@
 ﻿@using Bydgoszcz.Services
 @inherits LayoutComponentBase
 @inject IPinkService _pinkService
-
+@* @inject IGunService _gunService
+ *@
 <div class="@($"{(pink ? "page pink" : "page")}")">
-	@*     <p>Pink is @pink</p>*@
-	<main>
-		<article class="content px-4">
-			<!-- Pink overlay -->
-			@if(pink)
-			{
-				<div class="pink-overlay"></div>
-			}
-			<!-- Apply the pink filter here -->
-			@Body
-		</article>
-	</main>
+    @* Display the gun image if the user has a gun *@
+   @*  @if(hasGun)
+    {
+        <div style="background: url(/Content/Images/gun.png) no-repeat center center;
+    " alt="Gun" class="gun-image" />
+    } *@
+    <main>
+        <article class="content px-4">
+            <!-- Pink overlay -->
+            @if(pink)
+            {
+                <div class="pink-overlay"></div>
+            }
+            <!-- Apply the pink filter here -->
+            @Body
+        </article>
+    </main>
 </div>
 
 @code {
-	bool pink { get; set; }
+    bool pink { get; set; }
+    bool hasGun { get; set; }
 
-	protected override void OnInitialized()
-	{
-		pink = _pinkService.IsPink;
-		_pinkService.PinkChanged += HandlePinkChanged;
-	}
+    protected override void OnInitialized()
+    {
+        pink = _pinkService.IsPink;
+        _pinkService.PinkChanged += HandlePinkChanged;
 
-	private void HandlePinkChanged(object sender, EventArgs e)
-	{
-		pink = _pinkService.IsPink;
-		StateHasChanged(); // Notify Blazor that the state has changed
-	}
+        // hasGun = _gunService.HasGun;
+        // _gunService.GunStatusChanged += HandleGunStatusChanged;
+    }
+
+    private void HandlePinkChanged(object sender, EventArgs e)
+    {
+        pink = _pinkService.IsPink;
+        StateHasChanged(); // Notify Blazor that the state has changed
+    }
+
+    // private void HandleGunStatusChanged(object sender, EventArgs e)
+    // {
+    //     hasGun = _gunService.HasGun;
+    //     StateHasChanged(); // Notify Blazor that the state has changed
+    // }
+
+    // public void Dispose()
+    // {
+    //     _pinkService.PinkChanged -= HandlePinkChanged;
+    //     _gunService.GunStatusChanged -= HandleGunStatusChanged;
+    // }
 }

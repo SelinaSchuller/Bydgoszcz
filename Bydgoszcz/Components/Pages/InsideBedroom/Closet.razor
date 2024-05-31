@@ -1,4 +1,5 @@
 ﻿@page "/insideBedroom/closet"
+@page "/insideBedroom/closet/{gun}"
 @using Bydgoszcz.Services;
 
 @inject NavigationManager _navigationManager
@@ -20,6 +21,8 @@
 </div>
 
 @code {
+	[Parameter]
+	public bool gun { get; set; }
 
 	void OnClick(string destination)
 	{
@@ -29,6 +32,13 @@
 	void SetPink(bool pink)
 	{
 		_pinkService.SetPink(pink);
-		_navigationManager.NavigateTo("/insideBedroom/main");
+		if(gun)
+		{
+			_navigationManager.NavigateTo("/insideBedroom/main2");
+		}
+		else
+		{
+			_navigationManager.NavigateTo("/insideBedroom/main");
+		}
 	}
 }
